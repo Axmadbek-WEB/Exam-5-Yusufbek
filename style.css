@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #272C3D;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: "Quantico", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.6px;
+    transition: 0.4s;
+}
+
+.header__input i {
+    margin-left: -25px;
+}
+
+.header__input input {
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #404864;
+    border: none;
+}
+
+select {
+    border: none;
+    background-color: #00000063;
+    color: gray;
+    padding: 3px 20px 3px 2px;
+    border-radius: 511px;
+}
+
+option {
+    width: 130px;
+    height: 30px;
+    background-color: #00000080;
+    border: none;
+    border-radius: 10px;
+}
+
+.s1 {
+    background-image: url(./img/Bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: "Quantico", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.32px;
+    color: #fff;
+}
+
+.s1 p {
+    font-family: "Quantico", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+    color: white;
+}
+
+.s1__text {
+    padding-top: 460px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.s2__imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 17px 0;
+}
+
+main {
+    padding-bottom: 30px;
+    background-color: black;
+}
+
+.s2 h2 {
+    text-align: center;
+    margin-top: 33px;
+    font-family: "Quantico", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45.76px;
+    color: white;
+}
+
+.img {
+    display: flex;
+    max-width: 740px;
+    justify-content: center;
+    color: #BFBFBF;
+    gap: 20px;
+}
+.s3 .container{
+    background-color: #1B1E27;
+    padding: 10px 30px;
+    max-width: 800px;
+}
+.s3 h3 {
+    color: white;
+    padding: 30px 0;
+    font-family: "Quantico", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.32px;
+}
+.text1{
+    margin-bottom: 70px;
+}
+a:hover{
+    color: #FF9C28;
+}
+footer{
+    background-color: #272C3D;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
